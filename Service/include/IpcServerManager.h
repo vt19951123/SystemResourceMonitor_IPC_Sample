@@ -78,7 +78,7 @@ private slots:
      * @brief Xử lý lỗi xảy ra với server
      * @param error Loại lỗi
      */
-    void onServerError(QLocalServer::ServerError error);
+    void onServerError(QAbstractSocket::SocketError error);
 
 private:
     // Server IPC
