@@ -4,7 +4,7 @@ set(CMAKE_AUTORCC ON)
 
 # Thêm các file nguồn cho UI
 set(UI_SOURCES
-    # src/main.cpp
+    src/main.cpp
     # src/UIApplication.cpp
     # src/CpuDataModel.cpp
     # src/MemoryDataModel.cpp
@@ -14,16 +14,16 @@ set(UI_SOURCES
 
 # Thêm các file header
 set(UI_HEADERS
-    # include/UIApplication.h
-    # include/CpuDataModel.h
-    # include/MemoryDataModel.h
-    # include/IpcClientManager.h
-    # include/UpdateManager.h
+    include/UIApplication.h
+    include/CpuDataModel.h
+    include/MemoryDataModel.h
+    include/IpcClientManager.h
+    include/UpdateManager.h
 )
 
 # Tạo danh sách các file QML
 set(QML_FILES
-    # qml/main.qml
+    qml/main.qml
     # qml/CpuMonitorView.qml
     # qml/MemoryMonitorView.qml
     # qml/Charts/LineChart.qml
